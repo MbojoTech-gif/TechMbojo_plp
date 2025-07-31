@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><meta charset="utf-8"><title>ME</title></head>
-    <body>
-        <p> Hello world</p>
-        <p> This is a simple HTML page.</p>
-    </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Designer & Developer</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech Mbojo</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 data-animate="fade-in">Hi, I'm <span class="highlight">Tech Mbojo</span></h1>
+            <p class="tagline" data-animate="slide-up">Designer & Web Developer</p>
+            <a href="projects.html" class="cta-button" data-animate="slide-up">View Projects</a>
+        </section>
+
+        <section class="services">
+            <h2 data-animate="fade-in">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card" data-animate="slide-in">
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and dynamic websites</p>
+                </div>
+                <div class="service-card" data-animate="slide-in">
+                    <h3>Graphic Design</h3>
+                    <p>Crafting beautiful visual experiences</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+        <div class="social-links">
+           <a href="https://github.com/yourusername" >GitHub</a>
+           <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Tech Mbojo. All rights reserved.</p>
+        <div class="footer-branding">
+            Powered by <span>TechMbojo</span>
+        </div>
+    </footer>
+</body>
+</html>
